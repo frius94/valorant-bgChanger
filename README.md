@@ -2,7 +2,9 @@
 A powershell script to change your Valorant background easily.
 
 ## How to use it
-Download the **bgChanger** script and run it with "right-click -> Run with PowerShell".
+1. Download the **bgChanger.ps1** script. 
+2. Make sure your Riot-Games Client is running (not Valorant!)
+3. Run **bgChanger.ps1** with "right-click -> Run with PowerShell".
 
 ## Limitation
 This script only works on Windows machines. It won't work on macOS or any Linux OS.
