@@ -1,5 +1,6 @@
 # Valorant Background Changer
-A powershell script to change your Valorant background easily.
+A powershell script to change your Valorant background easily.<br>
+Youtube video: https://www.youtube.com/watch?v=i0rvNfKdxAQ
 
 ## How to use it
 1. Download the **bgChanger.ps1** script. 
@@ -7,7 +8,14 @@ A powershell script to change your Valorant background easily.
 3. Run **bgChanger.ps1** with "right-click -> Run with PowerShell".
 
 ## Limitation
-This script only works on Windows machines. It won't work on macOS or any Linux OS.
+This script only works on Windows machines and only with mp4 files.<br> 
+It won't work on macOS or any Linux OS.
+
+## How does it work?
+1. It checks if the client is running, because normally on every client startup the video files get reset.<br>
+2. You are asked to select the mp4 file.
+3. The mp4 file gets copied to the path **Riot Games\VALORANT\live\ShooterGame\Content\Movies\Menu** where the default mp4 files are located.
+4. If the script fails to locate your Valorant installation path, you are asked to select the VALORANT folder, and it will try to copy again.
 
 ## Contributing
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
